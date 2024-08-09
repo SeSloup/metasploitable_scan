@@ -65,8 +65,8 @@ FTPD, Mysql 5.0.5*, smtp, apache
 Когда сканируется система отвечающая требованиям RFC, любой пакет, не содержащий установленного бита SYN, RST или ACK, повлечет за собой отправку RST в ответ в случае, если порт закрыт, или не повлечет никакого ответа, если порт открыт. 
 ```
 
-- Как отвечает сервер?
-WIRESHARK scan
+- Как отвечает сервер?  
+WIRESHARK scan  
 `sS`
 ![sS](https://github.com/SeSloup/metasploitable_scan/blob/main/screens/syn.png)
 `sF`
