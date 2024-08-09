@@ -28,11 +28,12 @@
 
 - Какие уязвимости были вами обнаружены? (список со ссылками: достаточно трёх уязвимостей)
 
-FTPD, Mysql 5.0.5*, smtp, apache
-[vsftpd 2.3.4](https://www.exploit-db.com/exploits/49757)
-[MySQL 5.0.x](https://www.exploit-db.com/exploits/29724)
-[MySQL 5.0.x - IF Query](https://www.exploit-db.com/exploits/30020)
-[apache](Apache 1.3)
+FTPD, Mysql 5.0.5*, smtp, apache  
+
+[vsftpd 2.3.4](https://www.exploit-db.com/exploits/49757)  
+[MySQL 5.0.x](https://www.exploit-db.com/exploits/29724)  
+[MySQL 5.0.x - IF Query](https://www.exploit-db.com/exploits/30020)  
+[apache]([Apache 1.3](https://www.exploit-db.com/exploits/21002))  
 
 ![auxilairy scan](https://github.com/SeSloup/metasploitable_scan/blob/main/screens/01.png)
 ![auxilairy scan](https://github.com/SeSloup/metasploitable_scan/blob/main/screens/02_mysql_smtp.png)
