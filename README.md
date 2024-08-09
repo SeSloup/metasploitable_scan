@@ -76,3 +76,6 @@ WIRESHARK scan
 `sU`
 ![sU](https://github.com/SeSloup/metasploitable_scan/blob/main/screens/udp.png)
 
+
+-------------------------------------------------------------------------------
+Спасибо за проверку!
