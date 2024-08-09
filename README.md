@@ -7,6 +7,9 @@
 
 Скачайте и установите виртуальную машину Metasploitable: https://sourceforge.net/projects/metasploitable/.
 
+[настройка](https://github.com/SeSloup/metasploitable_scan/blob/main/safety_inf.txt)
+![настройка](https://github.com/SeSloup/metasploitable_scan/blob/main/screens/test_ping.png)
+
 Это типовая ОС для экспериментов в области информационной безопасности, с которой следует начать при анализе уязвимостей.
 
 Просканируйте эту виртуальную машину, используя **nmap**.
@@ -21,7 +24,7 @@
 
 - Какие сетевые службы в ней разрешены?
 
-![nmap -sV]
+![nmap -sV](https://github.com/SeSloup/metasploitable_scan/blob/main/screens/nmap_scan.png)
 
 - Какие уязвимости были вами обнаружены? (список со ссылками: достаточно трёх уязвимостей)
 
@@ -31,8 +34,8 @@ FTPD, Mysql 5.0.5*, smtp, apache
 [MySQL 5.0.x - IF Query](https://www.exploit-db.com/exploits/30020)
 [apache](Apache 1.3)
 
-![auxilairy scan]
-![auxilairy scan]
+![auxilairy scan](https://github.com/SeSloup/metasploitable_scan/blob/main/screens/01.png)
+![auxilairy scan](https://github.com/SeSloup/metasploitable_scan/blob/main/screens/02_mysql_smtp.png)
 
  
 
@@ -64,8 +67,8 @@ FTPD, Mysql 5.0.5*, smtp, apache
 - Как отвечает сервер?
 WIRESHARK scan
 
-![sS]
-![sF]
-![sX]
-![sU]
+![sS](https://github.com/SeSloup/metasploitable_scan/blob/main/screens/syn.png)
+![sF](https://github.com/SeSloup/metasploitable_scan/blob/main/screens/fin.png)
+![sX](https://github.com/SeSloup/metasploitable_scan/blob/main/screens/xmas.png)
+![sU](https://github.com/SeSloup/metasploitable_scan/blob/main/screens/udp.png)
 
